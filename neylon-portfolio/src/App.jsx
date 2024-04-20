@@ -1,4 +1,4 @@
-import './App.css';
+import './index.css';
 import BucketList from './components/BucketList';
 
 function App() {
