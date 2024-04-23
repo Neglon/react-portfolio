@@ -1,26 +1,26 @@
 import React from "react";
-
+import '../index.css';
 
 function Nav({ currentPage, handlePageChange }) {
   return (
     <nav>
-      <ul className="flex-row">
-        <li className="mx-2">
+      <ul className="">
+        <li className="">
           <a href="/" onClick={() => handlePageChange("About")}>
             About me
           </a>
         </li>
-        <li className={`mx-2 ${currentPage === "Portfolio" && 'navActive'}`}>
+        <li className={` ${currentPage === "Portfolio" && 'navActive'}`}>
           <a href="/portfolio" onClick={() => handlePageChange("Portfolio")}>
             Portfolio
           </a>
         </li>
-        <li className={`mx-2 ${currentPage === "Contact" && 'navActive'}`}>
+        <li className={` ${currentPage === "Contact" && 'navActive'}`}>
           <a href="/contact" onClick={() => handlePageChange("Contact")}>
             Contact
           </a>
         </li>
-        <li className={`mx-2 ${currentPage === "Resume" && 'navActive'}`}>
+        <li className={` ${currentPage === "Resume" && 'navActive'}`}>
           <a href="/resume" onClick={() => handlePageChange("Resume")}>
             Resume
           </a>
