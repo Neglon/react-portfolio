@@ -8,9 +8,27 @@ function Footer() {
   return (
     <div className="footer">
         <div>
-            <GitHub />
-            <LinkedIn />
-            <Email />
+            <GitHub id="icon"
+            className="pop-on-hover"
+            sx={{ fontSize: 50 }}
+            onClick={(event) =>
+              (window.location.href = "https://github.com/Neglon")
+            }
+          />
+            <LinkedIn id="icon"
+            className="pop-on-hover"
+            sx={{ fontSize: 50 }}
+            onClick={(event) =>
+              (window.location.href = "#")
+            }
+          />
+            <Email id="icon"
+            className="pop-on-hover"
+            sx={{ fontSize: 50 }}
+            onClick={(event) =>
+              (window.location.href = "#")
+            }
+          />
         </div>
 
         <p> &copy; 2024 Thomas Neylon</p>

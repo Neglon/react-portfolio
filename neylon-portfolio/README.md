@@ -10,3 +10,10 @@ Currently, two official plugins are available:
 
 pedro tech video  https://www.youtube.com/watch?v=x7mwVn2z3Sk
 
+
+pop on hover  https://blog.hubspot.com/website/css-hover-animation
+                https://stackoverflow.com/questions/28345222/css3-keyframe-animation-which-runs-on-hover
+
+
+
+
