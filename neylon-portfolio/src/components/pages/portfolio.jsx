@@ -1,15 +1,17 @@
 import React from 'react';
-import PortfolioItem from './PortfolioItem';
+import PortfolioItem from '../../components/PortfolioItem';
+import Project1 from '../images/bullsEye.PNG';
+import Project2 from '../images/movieMingle.PNG';
+import Project3 from '../images/quotely.PNG';
+import Project4 from '../images/weatherDashboard.PNG';
+import "../../index.css";
 
 function Portfolio() {
     return (
-        <div classname="portfolio">
+        <div className="portfolio">
             <h1>Portfolio</h1>
-            <div classname="portfolioList">
-                <PortfolioItem name="Project 1" image={} />
-                <PortfolioItem name="Project 2" />
-                <PortfolioItem name="Project 3" />
-                <PortfolioItem name="Project 4" />
+            <div className="portfolioList">
+                
             </div>
         </div>
     );
