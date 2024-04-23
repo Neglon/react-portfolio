@@ -1,9 +1,6 @@
 import React from 'react';
 import PortfolioItem from '../../components/PortfolioItem';
-import Project1 from '../images/bullsEye.PNG';
-import Project2 from '../images/movieMingle.PNG';
-import Project3 from '../images/quotely.PNG';
-import Project4 from '../images/weatherDashboard.PNG';
+import { PortfolioList } from '../helpers/portfolioList';
 import "../../index.css";
 
 function Portfolio() {
@@ -11,7 +8,9 @@ function Portfolio() {
         <div className="portfolio">
             <h1>Portfolio</h1>
             <div className="portfolioList">
-                
+               {PortfolioList.map((item) => {
+                return <PortfolioItem name={item.name} image={item.image}  />;
+                })}
             </div>
         </div>
     );
