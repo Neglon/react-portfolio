@@ -1,12 +1,28 @@
 import './index.css';
-import BucketList from './components/BucketList';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './components/pages/Home';
+import Resume from './components/pages/Resume';
+import Portfolio from './components/pages/Portfolio';
+import Contact from './components/pages/Contact';
+import Header from './components/Header';
+
 
 function App() {
   return (
-    <div className="bucket-app">
-      <BucketList />
+    <div className="">
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
 
 export default App;
+
+
