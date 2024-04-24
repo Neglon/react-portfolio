@@ -29,7 +29,7 @@
     MIT
 
 ## Code Source
-    Code fully written by Thomas Neylon, references were made to previous classwork, and the websites below, along with multiple youtube guides to building react portfolios and web sites..
+    Code fully written by Thomas Neylon, references were made to previous classwork, and the websites below, along with multiple youtube guides to building react portfolios and web sites. Co-pilot was also utilized in writing this code.
     
 [Pedro Tech](https://www.youtube.com/watch?v=x7mwVn2z3Sk)
    
