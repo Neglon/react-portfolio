@@ -1,7 +1,7 @@
 # React Portfolio
 
 ## Live Link
-[Portfolio](https://drive.google.com/file/d/1qPJJv4dr2cd1NC5ub-X1v-PUr9lIcMoh/view)
+[Portfolio](https://neylon-thomas.netlify.app/)
 
 ## Description
     - As a developer I wanted to be able showcase my skills as a developer by creating a portfolio using react
@@ -26,7 +26,7 @@
 
 
 ## Liscence
-    N/A
+    MIT
 
 ## Code Source
     Code fully written by Thomas Neylon, references were made to previous classwork, and the websites below, along with multiple youtube guides to building react portfolios and web sites..
