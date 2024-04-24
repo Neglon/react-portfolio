@@ -19,14 +19,14 @@ function Footer() {
             className="pop-on-hover"
             sx={{ fontSize: 50 }}
             onClick={(event) =>
-              (window.location.href = "#")
+              (window.location.href = "https://www.linkedin.com/")
             }
           />
             <Email id="icon"
             className="pop-on-hover"
             sx={{ fontSize: 50 }}
             onClick={(event) =>
-              (window.location.href = "#")
+              (window.location.href = "mailto:thomasfneylon@gmail.com")
             }
           />
         </div>

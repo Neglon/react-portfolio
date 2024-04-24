@@ -1,6 +1,5 @@
 import './index.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
 import Home from './components/pages/Home';
 import Resume from './components/pages/Resume';
 import Portfolio from './components/pages/Portfolio';
