@@ -139,7 +139,7 @@ nav ul {
   width: 100%;
   height: auto;
   display: grid;
-  
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
   align-items: center;
 }
@@ -148,9 +148,12 @@ nav ul {
   border-radius: 15px;
   width: 300px;
   height: 300px;
-  margin: 40px;
+  margin: 0px;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  
 }
 .portfolioItem:hover {
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
@@ -170,6 +173,37 @@ nav ul {
 
 .portfolioItem h1 {
   font-size: 25px;
+}
+
+/*Portfolio Buttons*/
+.portfolioButton {
+  
+  padding: 8px 16px;
+  margin: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.portfolioButtons {
+  display: flex;
+  justify-content: center;
+}
+
+.button.github {
+  left: 10px;
+}
+
+.button.deployed {
+  right: 10px;
+}
+
+.portfolioButton:hover {
+  background-color: #0056b3;
 }
 
 /* Footer */
