@@ -3,7 +3,7 @@ import Project2 from '../images/movieMingle.PNG';
 import Project3 from '../images/quotely.PNG';
 import Project4 from '../images/weatherDashboard.PNG';
 import Project5 from '../images/jate.PNG';
-import Project6 from '../images/bullseye.PNG';
+import Project6 from '../images/bullsEye.PNG'
 
 export const PortfolioList = [
     {
