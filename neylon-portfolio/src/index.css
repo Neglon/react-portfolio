@@ -23,6 +23,10 @@ a:hover {
   color: #535bf2;
 }
 
+.nav-link {
+  font-size: 25px; 
+}
+
 body {
   margin: 0;
   display: flex;
@@ -129,6 +133,7 @@ nav ul {
   margin: 20px;
   font-size: 20px;
   font-weight: bold;
+  color: lightslategrey;
 }
 
 /* Portfolio */

@@ -6,7 +6,7 @@ import '../index.css';
 function Nav() {
   return (
     <nav>
-      <ul className="">
+      <ul className="nav-link">
         <li>
           <NavLink to="/" className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
             About me
