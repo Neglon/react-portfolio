@@ -12,10 +12,12 @@ pedro tech video  https://www.youtube.com/watch?v=x7mwVn2z3Sk
 
 webdecoded   https://www.youtube.com/watch?v=hYv6BM2fWd8&list=PLd0qRSEDFQI7DgB5BKHQrryFlR02n1bK-
 
+greatstack https://www.youtube.com/watch?v=hkHHwA-vEyQ
+
 
 pop on hover  https://blog.hubspot.com/website/css-hover-animation
                 https://stackoverflow.com/questions/28345222/css3-keyframe-animation-which-runs-on-hover
 
 
-
+react forms  https://www.youtube.com/watch?v=Xts0kksSc8c  and https://www.youtube.com/watch?v=GjsxNvNAPi4
 

@@ -6,7 +6,7 @@ import "../../index.css";
 function Portfolio() {
     return (
         <div className="portfolio">
-            <h1>Portfolio</h1>
+            <h2>Portfolio</h2>
             <div className="portfolioList">
                {PortfolioList.map((item) => {
                 return <PortfolioItem name={item.name} image={item.image}  />;
