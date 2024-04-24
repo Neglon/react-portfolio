@@ -1,29 +1,31 @@
 import React from "react";
+import { NavLink } from 'react-router-dom';
 import '../index.css';
 
-function Nav({ currentPage, handlePageChange }) {
+
+function Nav() {
   return (
     <nav>
       <ul className="">
-        <li className="">
-          <a href="/" onClick={() => handlePageChange("About")}>
+        <li>
+          <NavLink to="/" className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
             About me
-          </a>
+          </NavLink>
         </li>
-        <li className={` ${currentPage === "Portfolio" && 'navActive'}`}>
-          <a href="/portfolio" onClick={() => handlePageChange("Portfolio")}>
+        <li>
+          <NavLink to="/portfolio" className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
             Portfolio
-          </a>
+          </NavLink>
         </li>
-        <li className={` ${currentPage === "Contact" && 'navActive'}`}>
-          <a href="/contact" onClick={() => handlePageChange("Contact")}>
+        <li>
+          <NavLink to="/contact" className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
             Contact
-          </a>
+          </NavLink>
         </li>
-        <li className={` ${currentPage === "Resume" && 'navActive'}`}>
-          <a href="/resume" onClick={() => handlePageChange("Resume")}>
+        <li>
+          <NavLink to="/resume" className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
             Resume
-          </a>
+          </NavLink>
         </li>
       </ul>
     </nav>

@@ -92,6 +92,32 @@ nav ul {
 
 }
 
+.nav {
+  display: flex;
+  list-style: none;
+  width: 40vw;
+  justify-content: space-between;
+}
+
+
+.nav-link.active {
+  color: #db1a9b;
+  display: flex;
+  justify-content: end;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: end;
+}
+
+@media (max-width: 589px) {
+  .nav {
+    flex-direction: column;
+  }
+}
+
+
 /* Portfolio */
 .portfolio {
   width: auto;
